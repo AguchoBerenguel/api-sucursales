@@ -1,0 +1,15 @@
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Visual Studio
+*.suo
+*.user
+*.sln.docstates
+.vs/
+
+# Build results
+[Bb]in/
+[Oo]bj/

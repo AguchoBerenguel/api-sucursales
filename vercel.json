@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "ApiSucursal/ApiSucursal.csproj",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/ApiSucursal/ApiSucursal.csproj"
+    }
+  ]
+}
