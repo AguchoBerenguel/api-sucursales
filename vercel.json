@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "ApiSucursal/ApiSucursal.csproj",
-      "use": "@vercel/node"
+      "src": "ApiSucursal.csproj",
+      "use": "@vercel/dotnet"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/ApiSucursal/ApiSucursal.csproj"
+      "dest": "/ApiSucursal.csproj"
     }
   ]
 }
